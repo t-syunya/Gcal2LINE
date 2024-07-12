@@ -65,7 +65,7 @@ function sendMessage(): void {
     events.forEach((event, index) => {
       if (index !== 0)
         sendMessage +=
-          '- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n';
+          '- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n';
       const title = event.getTitle();
       // eslint-disable-next-line @typescript-eslint/no-explicit-any
       const startTime = formatDate(event.getStartTime() as any as Date);
