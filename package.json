@@ -1,5 +1,5 @@
 {
-  "name": "gcal2line",
+  "name": "gcalnotify",
   "version": "0.0.0",
   "description": "",
   "main": "build/main.js",
