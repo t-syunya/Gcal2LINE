@@ -14,6 +14,13 @@ See the License for the specific language governing permissions and
 limitations under the License.
 -->
 # Google Calendarの予定をLINEに送信するプログラム
-- 送信時点の日付の日の予定をLINEに通知する。
-- APIキーやcalendarのidはGASのスクリプトプロパティで設定
+- このプログラムでは、送信時点の日付の予定をLINEに通知する。
+- プログラムはGoogle Apps Script上で動作させ、トリガーを設定することで決まった時間に通知する。
 
+## 使用準備
+- APIキーやcalendarのidはGASのスクリプトプロパティで設定
+- LINE Notifyの有効化とトークンの発行が必要。トークンはGASのスクリプトプロパティで設定
+
+## 使用方法
+- `npm run deploy`でデプロイ
+- GAS上でトリガーとスクリプトプロパティを設定
