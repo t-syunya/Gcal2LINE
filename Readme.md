@@ -13,7 +13,10 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 -->
+
 # Google Calendarの予定をLINEに送信するプログラム
+2025年3月31日にLine Notifyがサービス終了するためSlack APIへ移行予定
+
 - このプログラムでは、送信時点の日付の予定をLINEに通知する。
 - プログラムはGoogle Apps Script上で動作させ、トリガーを設定することで決まった時間に通知する。
 
